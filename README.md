@@ -5,4 +5,4 @@ Project of recycle to connect companys and clients
 
 <a href="https://eccollect.herokuapp.com/">link project-</a>
 
-<img src="https://drive.google.com/file/d/1A0ujNDk4simBVGKsTJBYQhgzUFEbz-iG/view?usp=sharing"/>
+<img src="https://github.com/BmAlkes/new-ecollect/blob/master/2020-06-10%20(9).png?raw=true"/>
