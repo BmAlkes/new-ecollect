@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecollect-pointCollect</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/create.css">
+    <link rel="stylesheet" href="css/resposive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="page-create-point">
+        <header>
+            <img src="./icones/Logo-Eco.png" alt="">
+
+            <a href="/"> <span></span>
+                Back to Home </a>
+        </header>
+
+        <form action="">
+            <h1>
+                Collection point register</h1>
+            <fieldset class="form">
+                <legend>
+                    <h2>Organization Names</h2>
+                </legend>
+            
+            <div class="field">
+                <label for="name">Organization Name</label>
+                <input type="text" name="name" placeholder="Name" required>
+            </div>
+            <div class="field-group">
+                <div class="field">
+                    <label for="adress">Adress</label>
+                    <input type="text" name="adress" placeholder="adress" required>
+                </div>
+                <div class="field">
+                    <label for="adress">Number</label>
+                    <input type="text" name="adress">
+                </div>
+            </div>
+            <div class="field-group">
+                <div class="field">
+                    <label for="city">City</label>
+                    <select name="utf" id="">
+                        <option value="">Select City</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="state">State</label>
+                    <input type="text" name="adress" value="Israel">
+                </div>
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>Collection Itens</h2>
+                </legend>
+           <div class="item-grid">
+               <li data-id="1" >
+                   <img src="./icones/lampadas.svg" alt="lampadas">
+                   <span>Lamps</span>
+               </li>
+               <li data-id="2">
+                <img src="./icones/baterias.svg" alt="Battery">
+                <span>Battery</span>
+            </li>
+            <li data-id="3">
+                <img src="./icones/papeis-papelao.svg" alt="Papper">
+                <span>Papper & Cardbord</span>
+            </li>
+            <li data-id="4">
+                <img src="./icones/oleo.svg" alt="Oil">
+                <span>Oil</span>
+            </li>
+            <li data-id="5">
+                <img src="./icones/organicos.svg" alt="Organic">
+                <span>Organic</span>
+            </li>
+            <li data-id="6">
+                <img src="./icones/eletronicos.svg" alt="Eletronics">
+                <span>Eletronics</span>
+            </li>
+           </div>
+           <input type="hidden" name="item">
+
+            </fieldset>
+            <button type="submit">Register collection point</button>
+
+        </form>
+
+
+
+
+    </div>
+</body>
+<script src="script/create-point.js"></script>
+</html>

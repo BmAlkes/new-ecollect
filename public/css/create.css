@@ -1,0 +1,141 @@
+#page-create-point{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#page-create-point header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-create-point a{
+    color: var(--title-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#page-create-point a span{
+    background-image: url('../icones/arrow-left.svg');
+    width: 20px;
+    height: 24px;
+    display: flex;
+    margin-right: 15px;
+}
+
+form{
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 730px; 
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+form h1{
+    text-align: center;
+    max-width: 350px;
+    font-size: 36px;
+}
+form fieldset{
+    margin-top: 64px;
+    border: 0;
+}
+form legend{
+    margin-bottom: 40px;
+}
+form legend h2{
+    font-size: 24px;
+}
+
+form .field{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+form .field-group{
+display: flex;
+
+}
+@media(max-width:700px){
+  
+
+
+    form .field-group{
+        flex-wrap: wrap;
+       flex: 1;
+    }
+
+}
+
+form input, form select{
+    background-color: #f0f0f5;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    
+}
+form label{
+    font-size: 14px;
+    margin-bottom: 8px;
+    
+}
+
+form .field-group .field + .field{
+    margin-left: 25px;
+}
+
+form button{
+    background: var(--primary-color);
+    color: white;
+    border: 0;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 16px;
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    margin-top:50px;
+}
+.item-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+fieldset h2{
+    margin-bottom: 30px;
+}
+@media(max-width:700px){
+    .item-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.item-grid li{
+    background: #f5f5f5;
+    padding: 32px 24px 16px;
+    list-style-type: none;
+    height: 180px;
+    border-radius: 8px;
+    border: 6px solid #f0f0f5;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+cursor: pointer;
+}
+
+
+.item-grid li.selected{
+    background: #e1faec;
+    border: 6px solid #34cb79;
+}
+
+.item-grid li img,
+.item-grid li span{
+    pointer-events: none;
+}
