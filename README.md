@@ -2,6 +2,3 @@
 
 Project of Html,Css, Javascript
 Project of recycle to connect companys and clients
-
-# new-ecollect
-# new-ecollect
